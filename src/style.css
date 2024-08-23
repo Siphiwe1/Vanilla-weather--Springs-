@@ -6,7 +6,7 @@ body {
   }
   
   a {
-    color: blueviolet;
+    color: #6d2175;
   }
   
   .app {
@@ -33,7 +33,7 @@ body {
   }
   
   .search-form-button {
-    background: blueviolet;
+    background: #6d2175;
     padding: 15px 20px;
     border: none;
     border-radius: 6px;
