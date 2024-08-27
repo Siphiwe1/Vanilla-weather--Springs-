@@ -45,44 +45,44 @@ body {
     padding: 30px 0;
   }
   
-  .app-data {
+  .weather-app-data {
     display: flex;
     justify-content: space-between;
   }
   
-  .app-city {
+  .weather-app-city {
     margin: 0;
     font-size: 2em;
     font-weight: bold;
   }
   
-  .app-details {
+  .weather-app-details {
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
   }
   
-  .app-details strong {
+  .weather-app-details strong {
     color: rgba(172, 3, 45, 0.932);
   }
   
-  .app-temp-container {
+  .weather-app-temperature-container {
     display: flex;
   }
   
-  .app-icon {
+  .weather-app-icon {
     font: 90px;
     height: 100px;
   }
   
-  .app-temp-value {
+  .weather-app-temperature-value {
     font-size: 80px;
     margin-left: 10px;
     line-height: 90px;
     font-weight: bold;
   }
   
-  .app-unit {
+  .weather-app-unit {
     margin-top: 6px;
     font-size: 25px;
   }
