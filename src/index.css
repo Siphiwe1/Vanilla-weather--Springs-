@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-color: #f9f7fe;
     font-family: "Sawarabi Mincho", serif;
     font-weight: 400;
     font-style: normal;
@@ -9,27 +9,27 @@ body {
     color: #6d2175;
   }
   
-  .app {
+  .weather-app {
     background: white;
     max-width: 600px;
-    margin: 50px auto;
-    box-shadow: 0 30px 50px rgba(35, 109, 179, 0.08);
+    margin: 30px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
     padding: 30px;
   }
   
   header {
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid #6d2175;
     padding: 0 0 30px 0;
   }
   
   .search-form-input {
-    background-color: gainsboro;
+    background-color: #f9f7fe;
     border: none;
     border-radius: 6px;
     width: 80%;
     font-size: 16px;
-    padding: 15px 20px;
+    padding: 20px 15px;
   }
   
   .search-form-button {
@@ -114,7 +114,7 @@ body {
   }
   
   footer {
-    border-top: 1px solid gainsboro;
+    border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
     text-align: center;
     font-size: 15px;
