@@ -61,3 +61,18 @@ function refreshWeather(response) {
   
     return days[date.getDay()];
   }
+  function searchCity(city) {
+    let apiKey = "3f82e744426ad147cf0oa3718d3b5f8t";
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
+    axios.get(apiUrl).then(refreshWeather);
+  }
+  function formatDay(timestamp) {
+    let date = new Date(timestamp * 1000);
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  
+    return days[date.getDay()];}
+    
+  let searchFormElement = document.querySelector("#search-form");
+  searchFormElement.addEventListener("submit", handleSearchSubmit);
+  
+  searchCity("Springs");
