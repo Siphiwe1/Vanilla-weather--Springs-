@@ -15,5 +15,18 @@ function refreshWeather(response){
    humidityElement.innerHTML=`${response.data.temperature.humidity}%`
    windSpeedElement.innerHTML= `${response.data.wind-windSpeed}KM/hr`
    temperatureElement.innerHTML= math.round(temperature);
-   iconElement.innerHTML= `img src="${response.data.condition.icon-url}"cl`
+   iconElement.innerHTML= `img src="${response.data.condition.icon-url}"`;
+}
+
+function FormatDate(date){
+
+let minutes= date.getMinutes();
+let hours= date.getHours();
+let days= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+let day= days[date,getDay()];
+if (minutes<10){
+    minutes=`0${minutes}`;
+}
+return`${day} ${hours} ${Minutes}`;
 }
